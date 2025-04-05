@@ -142,18 +142,16 @@ redirect_from:
 - **LA-Net：基于多尺度特征融合和注意机制的端到端类别级目标姿态估计网络**
 
 <div class='paper-box'>
-    <div class='paper-box-image'>
-        <div class="badge">2024.01 - 2024.08</div>
-        <img src='images/publications/lap_green.gif' alt="gif1" width="100%">
-    </div>
-    <div class='paper-box-text' markdown="1">
-        <div class="bottom-gif-container">
-            <img src='images/publications/bottle_bowl_360views.gif' alt="gif2" class="bottom-gif">
-            <img src='images/publications/mug_360views.gif' alt="gif3" class="bottom-gif">
+    <div class='paper-box-image' style="display: flex; gap: 10px;">
+        <div>
+            <div class="badge">2024.06 - now</div>
+            <img src='images/publications/lap_green.gif' alt="sym" style="width: 100%;">
+        </div>
+        <div>
+            <img src='images/publications/mug_360views.gif' alt="sym" style="width: 100%;">
         </div>
     </div>
-</div>
-<div class='paper-box-text' markdown="1">
+    <div class='paper-box-text' markdown="1">
 
 - LA-Net: An End-to-End Category-Level Object Attitude Estimation Network Based on Multi-Scale Feature Fusion and an Attention Mechanism, Electronics, JCR2区（导师一作）
 
