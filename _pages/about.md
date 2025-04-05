@@ -145,7 +145,7 @@ redirect_from:
     <div class='paper-box-image' style="display: flex; gap: 10px;">
         <div>
             <div class="badge">2024.06 - now</div>
-            <img src='images/publications/lap_green.gif' alt="sym" style="width: 100%;">
+            <img src='images/publications/bottle_bowl_360views.gif' alt="sym" style="width: 100%;">
         </div>
         <div>
             <img src='images/publications/mug_360views.gif' alt="sym" style="width: 100%;">
