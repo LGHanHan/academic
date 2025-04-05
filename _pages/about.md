@@ -142,7 +142,7 @@ redirect_from:
 - **LA-Net：基于多尺度特征融合和注意机制的端到端类别级目标姿态估计网络**
 
 <div class='paper-box'>
-    <div class='paper-box-image' style="display: flex; gap: 10px;">
+    <div class='paper-box-image' style="display: flex; flex - direction: column; gap: 10px;">
         <div>
             <div class="badge">2024.06 - now</div>
             <img src='images/publications/bottle_bowl_360views.gif' alt="sym" style="width: 100%;">
