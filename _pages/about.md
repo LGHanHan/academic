@@ -142,9 +142,16 @@ redirect_from:
 - **LA-Net：基于多尺度特征融合和注意机制的端到端类别级目标姿态估计网络**
 
 <div class='paper-box'>
-<div class='paper-box-image'>
-<div class="badge">2024.01 - 2024.08</div>
-<img src='images/publications/lap_green.gif' alt="sym" width="100%">
+    <div class='paper-box-image'>
+        <div class="badge">2024.01 - 2024.08</div>
+        <img src='images/publications/lap_green.gif' alt="gif1" width="100%">
+    </div>
+    <div class='paper-box-text' markdown="1">
+        <div class="bottom-gif-container">
+            <img src='images/publications/bottle_bowl_360views.gif' alt="gif2" class="bottom-gif">
+            <img src='images/publications/mug_360views.gif' alt="gif3" class="bottom-gif">
+        </div>
+    </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
@@ -188,7 +195,7 @@ redirect_from:
 **完成工作：**
 1. 对发电厂采集的原始信号进行数据清洗，滤波和时序数据处理。
   
-2. 在 tensorflow 框架下搭建并训练了基于 GRU 循环神经网络架构的 SO2 浓度预测模型。
+2. 在 tensorflow 框架下搭建并训练了基于 GRU 循环神经网络架构的二氧化硫浓度预测模型。
 
 3. 通过 MAE、MSE 等指标全面评估模型效果，并在实际场景下测试可视化预测效果。
 
