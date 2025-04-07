@@ -8,258 +8,246 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-I am currently a PhD student in the [RAIDS Research Group](https://www.raids.group/) at the [Department of Industrial and Systems Engineering](https://www.polyu.edu.hk/en/ise/) of [The Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/), mainly engaged in the research of robot learning, human-robot collaboration and robot teleoperation.
+# 👧 About Me
 
-I earned my bachelor’s degree at School of Mechanical Engineering, Hebei University of Technology ([河北工业大学机械工程学院](https://mes.hebut.edu.cn/)). I then pursued a master’s degree at the National Key Laboratory of Robot Technology and Systems, Harbin Institute of Technology ([哈尔滨工业大学机器人技术与系统国家重点实验室](http://robot.hit.edu.cn/)). Now, I'm pursuing a doctoral degree at the [RAIDS Research Group](https://www.raids.group/) in The Hong Kong Polytechnic University, under the guidance of [Prof. Pai Zheng](https://www.polyu.edu.hk/ise/people/academic-staff/pai-zheng/).
+我目前在西安科技大学[通信与信息工程学院](https://txxy.xust.edu.cn/)攻读硕士学位，主要从事计算机视觉、点云重建以及物体姿态估计等方面的研究。导师为[王静副教授](https://txxy.xust.edu.cn/1445131440.html)。
 
-My research interest includes robot learning, human-robot collaboration. I have submitted 5 papers in SCI journals, applied 1 invention patent, authorized 3 utility model patents and 1 software copyright.
+目前，我已经发表SCI论文2篇，此外还有3篇SCI一区论文在投。参与横向项目一项，积极参加各类技术比赛并荣获多项荣誉。
 
-
-
-<!-- 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
--->
+<span class='anchor' id='educations'></span>
 
 # 📖 Educations
-- *2024.09 - now*, [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), Hong Kong.
-- *2022.09 - 2024.06*, [Harbin Institute of Technology](https://www.hit.edu.cn/), Harbin, (Score: 90.65, rank: 13/177).
-- *2018.09 - 2022.06*, [Hebei University of Technology](https://www.hebut.edu.cn/), Tianjin, (GPA: 3.95/4, rank: 1/133).
 
+- 2019-2023，西安科技大学，通信与信息工程学院，电子信息工程，学士
 
-# 🔍 Projects
+- 2023-now，西安科技大学，通信与信息工程学院，电子信息，硕士
 
-<!-- Project -->
+<span class='anchor' id='skills'></span>
 
-## Sampling Robots in Complex Environments
+# 💡 Skills
+**1. 工具与框架**
+- 编程语言: 熟练使用Python、Matlab等编程语言。
+- 深度学习框架: 精通Pytorch、tensorflow、OpenCV（图像处理）。
+- 科研工具: 熟练掌握Latex（论文攥写）、Git（版本控制）、Visio（算法流程图设计）。
 
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div class="badge">2023.03 - Present</div>
-<img src='images/projects/202303_Sampling_Robots_in_Complex_Environments.png' alt="sym" width="100%">
-</div>
-<div class='paper-box-text' markdown="1">
+**2. 深度学习模型设计与优化**
+- 擅长设计端到端的深度学习网络，具备多种注意力机制（ECA、CBAM、金字塔、transformer等）、多尺度特征融合以及解耦机制的应用经验。
+- 擅长在线形状优化、仿射变换等多种数据增强方法，掌握跨域数据集成等前沿技术，解决类内形状差异导致的泛化性问题。
+- 精通各种超参数调整方法并熟练掌握学习率调控策略。
 
-Because of the irregularities on the object's surface and variations in lighting conditions, point cloud images obtained from a single perspective often contain significant gaps and errors at the object's edges, which can lead to inaccurate grasping pose estimations. To tackle these challenges, this article proposes a practical robot grasping method based on 6D pose estimation and point cloud fusion. First, 6D pose estimation is conducted, utilizing the results from model point cloud and pose estimation to complete the input point cloud through ICP (Iterative Closest Point). Subsequently, the resulting complete object point cloud is used to estimate the 6D grasping pose of the object with the help of the grasping direction estimation network.
+**3. 数据处理与算法实现**.
+- 数据预处理与特征工程：
+  熟练进行数据清洗、滤波、时序特征提取（如发电厂脱硫系统项目中处理工业传感器数据）。
+  掌握多模态数据（RGB-D、SAR图像、点云）的融合方法。
+- 数学建模与优化：
+  具备扎实的数学建模能力（数学建模国赛二等奖），擅长将实际问题转化为优化问题（如二氧化硫浓度预测模型）。
+- 算法落地与性能调优：
+  具备工业级算法部署经验，熟悉模型精度评估与迭代优化流程。
+  熟练使用各种去噪算法提升模型稳定性。
 
-</div><div markdown="1">
+**4. 科研与工程能力**
+- 学术研究能力：
+  具备独立研究课题的能力，能够系统性地梳理领域前沿问题并提出创新性解决方案，并设计合理的实验方案进行验证。
+- 工程实践能力：
+  参与工业级项目（发电厂脱硫系统），熟悉工业数据采集、模型部署与系统集成。
+- 团队协作能力：
+  多次担任团队核心成员（比赛和项目），具备项目分工协调与进度管理能力。
 
-**Finished Works**:
-1. Establish a model-free 6D pose estimation network based on perspective matching. Construct and train the pose estimation network to achieve precise pose estimation for seen objects and a rough estimation method for untrained objects. Create a pose refinement network for untrained objects when sparse point clouds are accessible.
+  <span class='anchor' id='papers'></span>
+  
+# 📝 Papers
 
-2. Propose a point cloud fusion and filtering method based on pose estimation. This method addresses the issue of point cloud gaps at the edge of objects when the robot collects samples from a single perspective. The point cloud fusion method is designed to utilize the output of pose estimation to fill in the gaps in the input point cloud and remove noise.
+<!-- Paper -->
 
-3. Perform grasp pose estimation using the completed point cloud. Utilizing the grasping angle prediction network and a fast search strategy, the completed point cloud enhances the stability of grasping pose generation, thereby improving the success rate of grasping and its robustness.
-
-4. Test the system in simulation and the real world using a 6DoF robot, a Realsense camera, and a laptop (ROS/Ubuntu 20.04) as the host computer.
-
-</div>
-</div>
-
-<!-- Project -->
-
-## Autonomous Suture Robot System for Endoscopic Surgery
-
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div class="badge">2023.02 - 2023.07</div>
-<img src='images/projects/202302_Autonomous_Suture_Operation_Robot_System_for_Endoscopic_Surgery.png' alt="sym" width="100%">
-</div>
-<div class='paper-box-text' markdown="1">
-
-The research objective is to enhance the efficiency and accuracy of autonomous suturing in endoscopic surgery. This involves designing a 3DOF autonomous suturing instrument, developing an efficient laparoscopic surgery robot based on 3D laparoscopy, and establishing a robot system that integrates visual, expert, and navigation systems.
-
-</div><div markdown="1">
-
-**Finished Works**:
-1. Perform the recognition and segmentation of surgical instruments and lesion tissues based on Yolov8, and determine the spatial position of the end of the surgical instruments.
-
-2. Build a vision and robotic arm fusion system, perform hand-eye calibration of cameras and robotic arms, and execute basic robot actions for visual servo.
-
-</div>
-</div>
-
-<!-- Project -->
-
-## Rock Core Box Handling Robot
+- **SAR图像的检测与分类**
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-<div class="badge">2022.08 - 2023.02</div>
-<img src='images/projects/202208_Rock_Core_Box_Handling_Robot.jpg' alt="sym" width="100%">
+<div class="badge">2024.01 - 2024.08</div>
+<img src='images/publications/SAR.png' alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
-Rock Core samples obtained from drilling before oil extraction are crucial data for assessing mining value, and they are stored in dedicated core boxes. During research and analysis, it's essential to arrange these rock core boxes neatly on-site in a designated order, one box at a time. However, these boxes are typically heavy, resulting in a high labor intensity that can impact transportation efficiency. The present invention aims to address the labor intensity associated with the current method of transporting core boxes, ultimately improving transportation efficiency.
+- Automatic Aircraft Identification with High Precision from SAR Images Considering Multiscale Problems and Channel Information Enhancement, Remote Sensing, JCR1区（导师一作）
+
+该系统具有全天、全天候成像的能力，在飞机识别应用中具有很高的价值。然而，由于散斑噪声干扰、多尺度问题和复杂的背景干扰，从SAR图像中识别飞机仍然面临着很大的挑战。
 
 </div><div markdown="1">
 
-**Finished Works**:
-1. Build a sensing system that utilizes infrared sensors to detect surrounding obstacles, as well as fractional laser sensors to detect the current stacking height and alignment.
 
-2. Implement rock core box instance segmentation based on Mask RCNN, combined with a depth camera to determine its corner space coordinates for visual servo during the robot handling process.
+**主要研究:**
+1. 提出了一种高效的双向路径多尺度融合关注网络（EBMA-Net）。它采用双向连通性，融合不同尺度飞机的特征，即使在背景非常复杂的情况下也能对飞机进行准确的检测。
 
-3. Utilize a monocular camera and Aruco markers to achieve 2D pose adjustment of the robot in place by identifying the offset distance and angle of the Aruco marker.
+2. 在EBMA-Net中，提出了一个高效多尺度信道注意融合（EMCA）模块和三个并行挤压高效信道注意（SECA）模块。其中EMCA模块通过叠加上下融合模块创建双向路径，有效地融合了浅层细节特征和深层语义信息，从而提高了飞机在不同尺度下的检测性能。SECA模块，对特征通道之间的依赖关系进行了显式建模，可以自动学习不同通道的重要性，对关键特征进行优先级排序，从而提高飞机识别的精度和鲁棒性。
+
+3. 实验使用高分辨率SAR系统的飞机识别公共数据集（即GF-3卫星生成的SAR- aircraft -1.0）。结果表明，EBMA-Net的平均飞机检测精度为91.31%，其识别飞机的准确率可以达到95.6%。因此，EBMA-Net在飞机探测和识别方面明显优于其他网络。所提出的EBMA-Net能够捕获细节信息，较好地抑制背景干扰，也可用于从SAR图像中检测和识别不同尺度和背景的密集目标。
 
 </div>
 </div>
 
-<!-- Project -->
+<!-- Paper -->
 
-## Medical Pan-Tilt Control System Based on Binocular Vision
+- **基于深度学习的物体姿态估计综述**
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div class="badge">2024.10 - now</div>
+<img src='images/publications/Zongshu.png' alt="sym" width="100%">
+</div>
+<div class='paper-box-text' markdown="1">
+
+- From Visual Understanding to 6D Pose Reconstruction: A Cutting-Edge Review of Deep Learning-Based Object Pose Estimation, Displays, JCR1区在投（导师一作）
+
+物体姿态估计是计算机视觉中的核心问题，为了帮助研究人员更好地了解这一领域，本文详细地总结了实例级、类别级以及未见物体和铰接体的位姿估计方法。根据输入数据的不同模态，重点介绍了基于深度学习的物体位姿估计方法的实现方式、应用领域、训练范式、网络架构及其优缺点，并比较了这些方法在不同数据集上的性能表现。此外，针对当前的技术瓶颈，本文还从多视角融合、跨模态数据集成及新型神经网络的前沿探索出发，展望了未来的发展方向，为推动物体姿态估计领域的突破性进展提供了全新的思路与借鉴。
+
+</div>
+</div>
+
+<!-- Paper -->
+
+- **SymPose：基于几何约束和在线形状优化方法的类别级物体姿态估计网络**
+
+<div class='paper-box'>
+    <div class='paper-box-image' style="display: flex; gap: 10px;">
+        <div>
+            <div class="badge">2024.06 - now</div>
+            <img src='images/publications/B.gif' alt="sym" style="width: 100%;">
+        </div>
+        <div>
+            <img src='images/publications/XZ.gif' alt="sym" style="width: 100%;">
+        </div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+      
+- SymPose: A Category-Level Object Pose Estimation Network Based on Geometric Constraints and Online Shape Optimization, IEEE sensors journal, JCR1区在投（导师一作）
+
+在类别级物体姿态估计中，同一物体类别（例如瓶子、椅子等）内不同实例之间的几何形状、大小、比例等存在较大差异。这种差异使得系统无法依赖于简单的形状模板或通用特征来估计姿态，因为不同实例的特征变化可能导致模型对其姿态的理解出现偏差。
+
+</div><div markdown="1">
+      
+**主要研究:**
+
+1. 本文提出了名为SymPose的类别级物体姿态估计网络，旨在解决类内形状变化导致的模型泛化性较差问题。
+
+2. SymPose通过点云优化模块使得模型能够灵活地适应类内的形状差异，并在处理不同物体时仍具有较高的精度。
+
+3. 该网络在点云重建的过程中引入了基于几何信息的物理约束，利用物体的本征属性使得模型能够更好地理解物体的几何特性，从而减少估计过程中的不确定性。
+
+4. 最后，为了减少离群点对物体姿态估计性能的影响，本文还设计了一个基于点云密度的离群鲁棒优化器。
+
+</div>
+</div>
+
+<!-- Paper -->
+
+- **LA-Net：基于多尺度特征融合和注意机制的端到端类别级目标姿态估计网络**
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-<div class="badge">2022.01 - 2022.06</div>
-<img src='images/projects/202201_Medical_Multi-DoF_Pan-Tilt_Control_System_Based_on_Binocular_Vision.jpg' alt="sym" width="100%">
+<div class="badge">2024.10 - now</div>
+<img src='images/publications/mug_360views.gif' alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
-In traditional medical processes, traditional Chinese medicine practitioners often need to frequently change positions and adjust their angles to view the surgical area. Additionally, during rehabilitation treatment, the camera's range can be inadequate to cover the patient's moving area. Current recording methods commonly used suffer from limitations and lack automation. This article introduces a multi-degree-of-freedom pan-tilt system designed to track the positions of doctors and patients.
+- LA-Net: An End-to-End Category-Level Object Attitude Estimation Network Based on Multi-Scale Feature Fusion and an Attention Mechanism, Electronics, JCR2区（导师一作）
 
-[**Project**](https://github.com/HaofeiMa/Multi-DOF_PTZ), [**Video**](https://www.youtube.com/watch?v=gDLijtdpC2w)
+目前类别级物体姿态估计方法在处理复杂物体的三维结构与多样化外观时，难以准确提取关键特征，进而导致姿态估计精度受限。并且基于两阶段的传统方法，在特征提取与姿态预测的过程中，存在计算步骤繁琐、资源消耗大的弊端，无法满足实时性要求较高的应用场景。本文旨在设计一种高效的端到端的姿态估计网络，实现高效的物体六自由度恢复。并且基于端到端的架构避免了两阶段过程中计算资源的消耗，因此具有较高的推理速度。
 
 </div><div markdown="1">
 
-**Finished Works**:
-1. Design the mechanical structure and simulate the platform's motion, using internal toothed rotary bearings to minimize the structural size. Protective structures have been designed for all sensor components.
+**主要研究:**
+1. 本文提出了一种基于多尺度特征融合和注意力机制的端到端类别级物体姿态估计网络LA-Net，能够高效恢复物体的六自由度姿态。
 
-2. Design hardware control algorithms for pan-tilt using STM32 and A4988 drivers, and establish communication between STM32 and the host computer's ROS system for pan-tilt motion control within ROS.
+2. LA-Net通过引入线性连接层（Linear Connection Layer），扩展了三维图卷积网络的架构，从而实现了不同层级特征的多尺度融合。
 
-3. Propose a target tracking method based on HOG and SIFT feature matching, capable of short-term single target tracking while maintaining robustness to changes in the target object's appearance.
+3. 其次，LA-Net结合金字塔注意力机制和Max-Pooling层，提取物体的局部和全局几何信息，显著增强了网络对物体姿态的感知能力。
 
-4. Construct an experimental Pan-Tilt system and conduct experiments with all proposed algorithms, using 3D printed structural components, a Realsense camera, and stepper motors.
+4. 最后，为了避免姿态估计中平移和旋转信息的相互影响，网络采用解耦机制分别恢复物体的旋转和平移信息。试验结果表明，与基线方法相比，LA-Net在目标姿态估计方面具有更高的精度。特别是对于具有复杂形状的物体，在10°2 cm指标上提高了5%。
 
 </div>
 </div>
 
-<!-- Project -->
+<!-- Paper -->
 
-## Spherical Environmental Information Collection Robot
+- **FusePose：一个基于多信息融合的单目相机位姿估计网络**
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-<div class="badge">2020.11 - 2021.05</div>
-<img src='images/projects/202011_Spherical_Metamorphic_Environmental_Information_Collection_Robot.gif' alt="sym" width="50%">
-<img src='images/projects/202011_Spherical_Metamorphic_Environmental_Information_Collection_Robot.png' alt="sym" width="50%">
+<div class="badge">2024.10 - now</div>
+<img src='images/publications/FusePose.png' alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
-Monitoring essential information in various hazardous environments, such as petrochemical plants, chemical plants, and disaster sites, is vital for disaster prevention and reduction. In response to this need, our team has designed a spherical environment monitoring robot system. It features a spherical metamorphic structure with multiple telescopic feet that enable the robot to rotate, roll, and achieve all-round motion with high stability. These robots utilize self-organized network communication technology to offer multiple monitoring modes, and the collected data is packaged and transmitted to the upper computer system, enabling real-time dynamic monitoring of complex environmental information over a wide area.
+- FusePose: A Monocular Camera Pose Estimation Network Based on Multi-Modal Information Fusion, JCR1区在投（导师一作）
+
+相机姿态估计是计算机视觉领域的核心挑战之一，旨在推断相机相对于场景的位置和方向。然而，相机位姿估计任务仍面临诸多挑战。一方面，运动模糊会使图像特征难以提取与匹配，干扰位姿计算。另一方面，视点变化问题同样对相机位姿估计造成阻碍。当相机视点发生变化时，场景中物体的可见部分、视角以及与相机的距离等都会改变。这导致不同视点下获取的图像差异较大，使得位姿估计模型难以学习到稳定的特征模式。
 
 </div><div markdown="1">
 
-**Finished Works**:
-1. Design the three-dimensional structure of the spherical robot, including the placement of controllers, sensors inside the sphere, and the spatial arrangement of leg motors.
-2. Implement control of spherical robot leg motors using STM32, calculate motion strategies, and achieve robot motion.
-3. Integrate , accelerometers, temperature and humidity sensors, gas sensors, etc., into the STM32 control system for Bluetooth-controlled robot motion and sensor data reception.
+**主要研究:**
+1. 本文提出了一个基于多信息融合的单目相机位姿估计网络—FusePose。FusePose在PoseNet2的基础上，通过时态感知定位模块（LSVO）和语义信息感知模块（SEMA）提取视觉里程计信息和场景语义信息。
+
+2. LSVO模块实现了视觉里程计信息的高效提取。与之前的方法相比，LSVO模块解决了双暹罗网络在训练过程中产生的神经元偏置偏移现象。
+
+3. 7-Scenes数据集不含语义标签，因此本文在7-Scenes数据集的基础上自建了一个语义分割图数据集，用于语义信息的提取。
+
+4. SEMA模块通过构建四分路语义特征提取网络提取场景间的高级语义信息，并且采用自适应的特征融合方法，对不同尺度的语义特征进行合并。
+
+5. FusePose通过将多尺度语义信息与视觉里程计信息联合约束，可以在相机位姿估计中充分利用场景中的高层结构信息和低层几何信息。语义信息可以识别出静态背景区域，将这些区域作为主要的几何约束源，视觉里程计信息能够在静态背景区域中更好的确定动态物体前后位置变化。两者的联合约束提高了位姿估计的精度和鲁棒性。
 
 </div>
 </div>
 
-# 📝 Publications 
+<span class='anchor' id='project'></span>
 
-## 📃 Papers
+# 🔍 Project
+- **发电厂智能烟气脱硫系统**
 
-<!-- Paper 2023.12 -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">International Journal of Advanced Manufacturing Technology</div><img src='images/publications/202409_Robotic_Grasping_Method_with_6D_Pose_Estimation_and_Point_Cloud_Fusion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div class="badge">2023.03 - 2024.07</div>
+<img src='images/publications/SO2.png' alt="sym3" width="100%">
+</div>
 <div class='paper-box-text' markdown="1">
 
-[**Robotic Grasping Method with 6D Pose Estimation and Point Cloud Fusion**](https://doi.org/10.1007/s00170-024-14372-3)
-
-**Haofei Ma**, Gongcheng Wang, Hua Bai, Zhiyu Xia, Weidong Wang, Zhijiang Du
-
-[**Paper**](https://doi.org/10.1007/s00170-024-14372-3)
-- A grasping pose estimation framework based on point cloud fusion and filtering is proposed, which solves the problem of sparse point clouds at object edges and facilitates more robust grasping.
-- A novel pose estimation method based on viewpoint selection is introduced, which first uses an RGBD cam
-era to reconstruct the point cloud model of the object, and then applies the principle of viewpoint selection to 
-obtain the 6D pose of the object.
-- We demonstrate that through pose estimation and point cloud fusion, this grasping framework can accurately grasp object from a single-view RGBD image, maintaining a high success rate even in cluttered scenes.
-
-</div>
-</div>
-
-<!--
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
--->
-
-- <code class="language-plaintext highlighter-rouge">IJAMT</code> **Haofei Ma**, Gongcheng Wang, Hua Bai, Zhiyu Xia, Weidong Wang, and Zhijiang Du. "[**Robotic Grasping Method with 6D Pose Estimation and Point Cloud Fusion**](https://doi.org/10.1007/s00170-024-14372-3)." *The International Journal of Advanced Manufacturing Technology* (2024): 1-11. doi: [10.1007/s00170-024-14372-3](https://doi.org/10.1007/s00170-024-14372-3)
-
-- <code class="language-plaintext highlighter-rouge">RAS</code> Gongcheng Wang, **Haofei Ma**, Han Wang, Pengchao Ding, Hua Bai, Wenda Xu, Weidong Wang, and Zhijiang Du. "[**Reactive mobile manipulation based on dynamic dual-trajectory tracking**](https://doi.org/10.1016/j.robot.2023.104589)." *Robotics and Autonomous Systems* 172 (2024): 104589. doi: [10.1016/j.robot.2023.104589](https://doi.org/10.1016/j.robot.2023.104589).
-
-- <code class="language-plaintext highlighter-rouge">IEEE Sensors Journal</code> Zhiyu Xia, Han Wang, Yulong Men, **Haofei Ma**, Zexin Cao, Weidong Wang, Zhijiang Du. "[**Kalman Filter-based EM-optical Sensor Fusion for Bone Needle Position Tracking**](https://doi.org/10.1109/JSEN.2024.3364701)." *IEEE Sensors Journal* (2024). doi: [10.1109/JSEN.2024.3364701](https://doi.org/10.1109/JSEN.2024.3364701)
-
-- <code class="language-plaintext highlighter-rouge">RAS</code> Hua Bai, Wenrui Gao, **Haofei Ma**, Pengchao Ding, Gongcheng Wang, Wenda Xu, Weidong Wang, Zhijiang Du. "[**A study of robotic search strategy for multi-radiation sources in unknown environments**](https://doi.org/10.1109/JSEN.2024.3364701)." *Robotics and Autonomous Systems* 169 (2023): 104529. doi: [10.1109/JSEN.2024.3364701](https://doi.org/10.1109/JSEN.2024.3364701).
+**项目简介：**
+  
+以火力发电厂机组石灰石-石膏湿法烟气脱硫系统为对象，主要研究脱硫浆液 pH 值控制过程中的自动控制系统及其优化控制，提高出口二氧化硫浓度预测精度，从而降低发电厂的脱硫成本。
+</div><div markdown="1">
 
 
-## 📚 Patents
+**完成工作：**
+1. 对发电厂采集的原始信号进行数据清洗，滤波和时序数据处理。
+  
+2. 在 tensorflow 框架下搭建并训练了基于 GRU 循环神经网络架构的二氧化硫浓度预测模型。
 
-- <code class="language-plaintext highlighter-rouge">Invention Patent</code> [**A Rock Core Box Handling Robot**](https://cprs.patentstar.com.cn/Search/Detail?ANE=9DIE1BAA2AAA8CDA8EDA9CIB9BIF9GBC9BED6BDA9HBH9IBE), Weidong Wang, Hengbin Liang, **Haofei Ma**, Gongcheng Wang (CN202310547284.5, Pending)
+3. 通过 MAE、MSE 等指标全面评估模型效果，并在实际场景下测试可视化预测效果。
 
-- <code class="language-plaintext highlighter-rouge">Utility Model Patent</code> [**A Spherical Metamorphic Robot and An Environmental Information Monitoring System**](https://cprs.patentstar.com.cn/Search/Detail?ANE=AHIA8FDA8AGA9GGE9HAA6GAA9HDD9CIC9FCA9HDC9GDF9ICF), Yuhan Rao, Manhong Li, *Haofei Ma*, Yuchong Gao, Nuo Zhang, Xinyu Liu (CN202120212154.2)
+4. 封装模型文件编写与系统的对接程序。
 
-- <code class="language-plaintext highlighter-rouge">Utility Model Patent</code> [**A Rope Driven Cleaning Robot**](https://cprs.patentstar.com.cn/Search/Detail?ANE=AIHA6AGA7BEA9DID9BIC9ICBBFIA8BDA9IBF9ICG8EEA9FDG), Bao Li, Manhong Li, Shuofan Li, **Haofei Ma**, Jidong Guo, Yuchong Gao, Yingxin Dong (CN202120545507.0)
-
-- <code class="language-plaintext highlighter-rouge">Utility Model Patent</code> [**Small Ocean Vehicles Using Wave Energy to Generate Electricity**](https://cprs.patentstar.com.cn/Search/Detail?ANE=9EEB9HFD3ABA3CBA9AIB9GIF8IAA9FADBCIA9BEA9ECDAGGA), Yihan Gao, **Haofei Ma**, Shaoan Chen, Haoran Sun, Chenxi Song (CN202020078465.X)
-
-- <code class="language-plaintext highlighter-rouge">Software Copyright</code> [**Identity Recognition and Infrared Temperature Measurement Control System**](https://register.ccopyright.com.cn/publicInquiry.html?type=softList&registerNumber=2021SR1391064&keyWord=%E9%A9%AC%E6%B5%A9%E9%A3%9E&publicityType=ALL&registerDateType=ALL), **Haofei Ma** (2021SR1391064)
+<span class='anchor' id='honors-and-awards'></span>
 
 # 🏆 Honors and Awards
 
-## 🏅 Honors
-- *2024.06*, HeGao Scholarship in Harbin Institute of Technology
-- *2023.12*, Leading Intelligence · Wang Yanqing Scholarship
-- *2023.10*, Excellent Students of Harbin Institute of Technology
-- *2023.09*, Top Grade Scholarship in Harbin Institute of Technology
-- *2022.06*, Provincial Outstanding Graduates (Top 1%)
-- *2021.05*, Provincial Merit Student (Top 1%)
-- *2021.06*, Finely Crafted Technology Scholarship
-- *2021.01*, Outstanding Student in Hebei University of Technology
-- *2020.12*, [National Scholarship](https://mp.weixin.qq.com/s/ulEa10HIwbCN9yk4mXRcVQ) (Top 0.3%)
-- *2020.12*, Excellent Student Cadre in Hebei University of Technology
-- *2020.12*, The First Prize Scholarship in Hebei University of Technology
+**🏅 Honors**
+- 2024.5，研究生学业一等奖学金（8/19）
+- 2024.11，优秀研究生 （1/23）
+- 2024.12，国家奖学金（2/5）
+- 2024.12，徐精彩奖学金（3/5）
 
-## 🎏 Competitions
-- *2021.09*, “Internet +” Innovation and Entrepreneurship Competition Provincial Silver Award .
-- *2021.08*, E-commerce “Innovation, Creativity, and Entrepreneurship” Challenge Provincial Third Prize.
-- *2021.07*, Zhou Peiyuan Mechanics Competition Provincial Second Prize and National Excellence Award.
-- *2020.12*, Hebei Province College Robot Competition Seconda Prize.
-- *2020.10*, Electronic Design Competition Provincial Second Prize.
-- *2020.10*, iCAN International Innovation and Entrepreneurship Competition Provincial Second Prize.
-- *2020.09*, Mechanical Innovation Design Competition Provincial Second Prize.
-- *2019.12*, Mathematics Competition Provincial First Prize.
-- *2019.09*, iCAN International Innovation and Entrepreneurship Competition Provincial Third Prize.
-- *2019.06*, Mathematics Competition Provincial Second Prize.
+**🎏 Competitions**
+- 2023，研电赛三等奖
+- 2023，全国大学生数据分析理论赛一等奖
+- 2023，全国大学生数据分析实战赛三等奖
+- 2024，研电赛三等奖
+- 2024，数学建模校赛二等奖
+- 2024，数学建模国赛二等奖
+- 2024，第六届研究生人工智能创新大赛三等奖
+- 2024，西安科技大学通信学院第二界学术会议论坛三等奖
 
-# 💼 Societies
+<span class='anchor' id='society'></span>
+  
+# 🏰 Society
 
-- *2023.02 - 2023.07*, School Office Assistant in Harbin Institute of Technology.
-- *2022.02 - 2022.06*, Class Leader in Hebei University of Technology.
-- *2019.09 - 2022.06*, Class Study Monitor in Hebei University of Technology.
-- *2020.09 - 2021.08*, Director of Haier Key Maker-Lab in Hebei University of Technology.
-
-<!-- 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
--->
-
-<!-- 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
--->
+2019.09 - 2023.06，西安科技大学通信学院科技创新实验室
