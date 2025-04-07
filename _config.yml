@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Haofei Ma - Academic Homepage"
-description              : "A PhD student in The Hong Kong Polytechnic University. Focusing on robot learning and human-robot collaboration."
-repository               : "HaofeiMa/academic-page"
+title                    : "Guohan Liu - Academic Homepage"
+description              : "西安科技大学研究生，主要研究方向为计算机视觉、物体姿态估计、三维点云重建、目标检测与分类。"
+repository               : "LGHanHan/academic-page"
 google_scholar_stats_use_cdn : false
 
 # google analytics
@@ -21,32 +21,32 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Haofei Ma"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "The Hong Kong Polytechnic University"
-  location         : "Hong Kong, China"
+  name             : "刘郭晗"
+  avatar           : "images/LGH.png"
+  bio              : "西安科技大学"
+  location         : "西安，陕西"
   employer         :
   pubmed           : 
-  googlescholar    : https://scholar.google.com/citations?user=9a412VgAAAAJ&hl=en # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "mail@mahaofei.com"
-  researchgate     : https://www.researchgate.net/profile/Haofei-Ma-2 # e.g., "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : #https://scholar.google.com/citations?user=9a412VgAAAAJ&hl=en # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  email            : "23207223106@stu.xust.edu.cn"
+  researchgate     : https://www.researchgate.net/profile/Guohan-Liu-2 # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              : # "https://www.mahaofei.com"
-  blog             : "https://www.mahaofei.com"
+  blog             : #"https://www.mahaofei.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "HaofeiMa" # e.g., "github username"
+  github           : "LGHanHan" # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : haofei-ma-8b716429a # e.g., "linkedin username"
+  linkedin         : #haofei-ma-8b716429a # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0009-0001-5061-6191" # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0005-3870-8877" # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
