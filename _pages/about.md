@@ -145,7 +145,7 @@ redirect_from:
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-<div class="badge">2024.10 - now</div>
+<div class="badge">2024.01 - now</div>
 <img src='images/publications/mug_360views.gif' alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
