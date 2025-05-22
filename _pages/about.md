@@ -110,13 +110,13 @@ redirect_from:
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div class="badge">2024.10 - now</div>
-<img src='images/publications/Zongshu.png' alt="sym" width="100%">
+<img src='images/publications/SDCNet.png' alt="sym" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
 - From Visual Understanding to 6D Pose Reconstruction: A Cutting-Edge Review of Deep Learning-Based Object Pose Estimation, Displays, JCR1区（导师一作）
 
-物体姿态估计是计算机视觉中的核心问题，为了帮助研究人员更好地了解这一领域，本文详细地总结了实例级、类别级以及未见物体和铰接体的位姿估计方法。根据输入数据的不同模态，重点介绍了基于深度学习的物体位姿估计方法的实现方式、应用领域、训练范式、网络架构及其优缺点，并比较了这些方法在不同数据集上的性能表现。此外，针对当前的技术瓶颈，本文还从多视角融合、跨模态数据集成及新型神经网络的前沿探索出发，展望了未来的发展方向，为推动物体姿态估计领域的突破性进展提供了全新的思路与借鉴。
+物体姿态估计通过确定物体在三维空间中的位置和朝向，为各类测量工作提供关键的物体姿态参数，从而有效提升测量的精度与可靠性。本文设计了一个对称性驱动的类别级物体姿态估计网络——SDCNet。
 
 </div>
 </div>
