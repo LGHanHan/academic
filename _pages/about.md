@@ -116,7 +116,7 @@ redirect_from:
 
 - SDCNet: A Symmetry-Driven Network for Category-Level Object Pose Estimation, Remote Sensing, Measurement and Big Data（会议论文，导师一作）
 
-物体姿态估计通过确定物体在三维空间中的位置和朝向，为各类测量工作提供关键的物体姿态参数，从而有效提升测量的精度与可靠性。本文设计了一个对称性驱动的类别级物体姿态估计网络——SDCNet。
+物体姿态估计通过确定物体在三维空间中的位置和朝向，为各类测量工作提供关键的物体姿态参数，从而有效提升测量的精度与可靠性。本文设计了一个对称性驱动的类别级物体姿态估计网络—SDCNet。
 
 </div>
 </div>
