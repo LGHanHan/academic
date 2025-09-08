@@ -106,6 +106,37 @@ redirect_from:
 
 <!-- Paper -->
 
+- **FusePose：一个基于多信息融合的单目相机位姿估计网络**
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div class="badge">2024.10 - now</div>
+<img src='images/publications/FusePose.png' alt="sym" width="100%">
+</div>
+<div class='paper-box-text' markdown="1">
+
+- FusePose: A Monocular Camera Pose Estimation Network Based on Multi-Modal Information Fusion, JCR1区在投（导师一作）
+
+相机姿态估计是计算机视觉领域的核心挑战之一，旨在推断相机相对于场景的位置和方向。然而，相机位姿估计任务仍面临诸多挑战。一方面，运动模糊会使图像特征难以提取与匹配，干扰位姿计算。另一方面，视点变化问题同样对相机位姿估计造成阻碍。当相机视点发生变化时，场景中物体的可见部分、视角以及与相机的距离等都会改变。这导致不同视点下获取的图像差异较大，使得位姿估计模型难以学习到稳定的特征模式。
+
+</div><div markdown="1">
+
+**主要研究:**
+1. 本文提出了一个基于多信息融合的单目相机位姿估计网络—FusePose。FusePose在PoseNet2的基础上，通过时态感知定位模块（LSVO）和语义信息感知模块（SEMA）提取视觉里程计信息和场景语义信息。
+
+2. LSVO模块实现了视觉里程计信息的高效提取。与之前的方法相比，LSVO模块解决了双暹罗网络在训练过程中产生的神经元偏置偏移现象。
+
+3. 7-Scenes数据集不含语义标签，因此本文在7-Scenes数据集的基础上自建了一个语义分割图数据集，用于语义信息的提取。
+
+4. SEMA模块通过构建四分路语义特征提取网络提取场景间的高级语义信息，并且采用自适应的特征融合方法，对不同尺度的语义特征进行合并。
+
+5. FusePose通过将多尺度语义信息与视觉里程计信息联合约束，可以在相机位姿估计中充分利用场景中的高层结构信息和低层几何信息。语义信息可以识别出静态背景区域，将这些区域作为主要的几何约束源，视觉里程计信息能够在静态背景区域中更好的确定动态物体前后位置变化。两者的联合约束提高了位姿估计的精度和鲁棒性。
+
+</div>
+</div>
+
+<!-- Paper -->
+
 - **SDCNet:对称性驱动的类别级物体姿态估计网络**
 <div class='paper-box'>
 <div class='paper-box-image'>
@@ -185,36 +216,6 @@ redirect_from:
 </div>
 </div>
 
-<!-- Paper -->
-
-- **FusePose：一个基于多信息融合的单目相机位姿估计网络**
-
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div class="badge">2024.10 - now</div>
-<img src='images/publications/FusePose.png' alt="sym" width="100%">
-</div>
-<div class='paper-box-text' markdown="1">
-
-- FusePose: A Monocular Camera Pose Estimation Network Based on Multi-Modal Information Fusion, JCR1区在投（导师一作）
-
-相机姿态估计是计算机视觉领域的核心挑战之一，旨在推断相机相对于场景的位置和方向。然而，相机位姿估计任务仍面临诸多挑战。一方面，运动模糊会使图像特征难以提取与匹配，干扰位姿计算。另一方面，视点变化问题同样对相机位姿估计造成阻碍。当相机视点发生变化时，场景中物体的可见部分、视角以及与相机的距离等都会改变。这导致不同视点下获取的图像差异较大，使得位姿估计模型难以学习到稳定的特征模式。
-
-</div><div markdown="1">
-
-**主要研究:**
-1. 本文提出了一个基于多信息融合的单目相机位姿估计网络—FusePose。FusePose在PoseNet2的基础上，通过时态感知定位模块（LSVO）和语义信息感知模块（SEMA）提取视觉里程计信息和场景语义信息。
-
-2. LSVO模块实现了视觉里程计信息的高效提取。与之前的方法相比，LSVO模块解决了双暹罗网络在训练过程中产生的神经元偏置偏移现象。
-
-3. 7-Scenes数据集不含语义标签，因此本文在7-Scenes数据集的基础上自建了一个语义分割图数据集，用于语义信息的提取。
-
-4. SEMA模块通过构建四分路语义特征提取网络提取场景间的高级语义信息，并且采用自适应的特征融合方法，对不同尺度的语义特征进行合并。
-
-5. FusePose通过将多尺度语义信息与视觉里程计信息联合约束，可以在相机位姿估计中充分利用场景中的高层结构信息和低层几何信息。语义信息可以识别出静态背景区域，将这些区域作为主要的几何约束源，视觉里程计信息能够在静态背景区域中更好的确定动态物体前后位置变化。两者的联合约束提高了位姿估计的精度和鲁棒性。
-
-</div>
-</div>
 
 <span class='anchor' id='project'></span>
 
@@ -263,6 +264,9 @@ redirect_from:
 - 2024，数学建模国赛二等奖
 - 2024，第六届研究生人工智能创新大赛三等奖
 - 2024，西安科技大学通信学院第二界学术会议论坛三等奖
+- 2025, 数学建模校级一等奖
+- 2025，华数杯全国大学生数学建模三等奖
+- 2025，全国大学生数据分析竞赛二等奖
 
 <span class='anchor' id='society'></span>
   
