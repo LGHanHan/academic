@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Guohan Liu - Academic Homepage"
-description              : "西安科技大学研究生，主要研究方向为计算机视觉、物体姿态估计、三维点云重建、目标检测与分类。"
+description              : "西安科技大学研究生，主要研究方向为物体姿态估计、三维点云重建、雷达图像处理。"
 repository               : "LGHanHan/academic-page"
 google_scholar_stats_use_cdn : false
 
